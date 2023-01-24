@@ -104,6 +104,14 @@ export const testimonies = [
   {
     id: 2,
     name: "Uchendu C",
-    testimony: "Whenever money got into my hands, I never knew how I squandered it so fast without even saving a little. I got to hear about Piggy vest and it's various services and right now, I am totally enjoying this journey.",
-  }
+    date: "Monday, 24th of October 2022 by 23:27 PM",
+    testimony:
+      "Whenever money got into my hands, I never knew how I squandered it so fast without even saving a little. I got to hear about Piggy vest and it's various services and right now, I am totally enjoying this journey.",
+  },
+  {
+    id: 3,
+    name: "Tobenna A",
+    date: "Thursday, 6th of October 2022 by 11:42 A",
+    testimony: "Thanks to piggyvest I've saved enough money to start up a really large business",
+  },
 ];
