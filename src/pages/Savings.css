@@ -1,0 +1,33 @@
+.savings {
+  /* margin: 0 0; */
+}
+.savings-header {
+  width: 60%;
+  margin: 0 auto;
+}
+.savings-header p {
+  color: var(--clr-grey-2b);
+  letter-spacing: 2px;
+}
+.savings-header h1 {
+  font-size: 2rem;
+}
+
+.savings-header .savings-button {
+  font-family: "U8-Regular", "sans-serif";
+  padding: 1rem 1.3rem;
+  border-radius: 0.5rem;
+  background: var(--clr-black);
+  color: var(--clr-white);
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: 1px solid var(--clr-black);
+  font-weight: bold;
+  margin: 1.2rem 0;
+  letter-spacing: 1px;
+}
+.savings-header .savings-button:hover {
+  cursor: pointer;
+  background: var(--clr-primary-5b);
+  transition: var(--transition2);
+}

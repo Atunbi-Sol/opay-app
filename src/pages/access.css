@@ -1,0 +1,40 @@
+.access-section {
+  position: relative;
+  width: 600px;
+  z-index: -1;
+}
+.access-section .access-iphone {
+  width: 250px;
+  height: 550px;
+}
+.dotcircle {
+  position: absolute;
+  top: 180px;
+  left: 25px;
+  font-size: 270px;
+  z-index: -1;
+  color: #e9daf8;
+}
+.invest-section {
+  margin-top: 2rem;
+  width: 450px;
+  margin: 0 auto;
+}
+.access-section .invest-section p {
+  padding: 20px;
+  font-size: 15px;
+  color: #030405;
+}
+.access-section .invest-section h4 {
+  background: #efe6f8;
+  padding: 8px;
+  width: 200px;
+  margin: 25px auto;
+  border-radius: 25px;
+  color: #0914b4;
+  font-weight: bold;
+}
+.access-section .invest-section h1 {
+  color: #030405;
+  font-size: 40px;
+}

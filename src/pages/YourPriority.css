@@ -1,0 +1,25 @@
+.your-priority{
+  margin-bottom: 6rem;
+}
+.security-icon {
+  width: 105px;
+  height: 120px;
+  border: 1px solid var(--clr-black);
+  margin: 4rem 0;
+}
+.priority-header h1 {
+  font-size: 1.7rem;
+}
+.priority-link {
+  /* text-decoration: none !important; */
+  color: var(--clr-grey-4b);
+  font-weight: bold;
+}
+
+.priority-link .arrow-icon {
+  transform: translateY(0.2rem);
+  padding-left: 0.5rem;
+}
+.priority-header p {
+  color: var(--clr-grey-2b);
+}
