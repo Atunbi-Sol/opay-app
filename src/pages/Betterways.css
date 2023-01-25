@@ -45,44 +45,44 @@
   height: 110px;
   box-sizing: border-box;
   position: absolute;
-  top: 50px;
-  left: 38px;
+  top: 130px;
+  left: -19px;
 }
 .investify-image {
   width: 220px;
   height: 110px;
   box-sizing: border-box;
   position: absolute;
-  bottom: -460px;
-  right: 28px;
+  bottom: 15px;
+  right: -28px;
 }
 .compress-image {
   position: absolute;
   font-size: 65px;
   color: #e4d0fa;
-  top: 590px;
-  left: 110px;
+  top: -27px;
+  left: 50px;
 }
 .dot-image {
   position: absolute;
   font-size: 120px;
   color: #a2e1fc;
-  top: 920px;
-  left: 65px;
+   bottom: 70px;
+  left: 35px;
   transform: rotate(90deg);
 }
 .dotted {
   position: absolute;
   font-size: 120px;
   color: #a2e1fc;
-  top: 920px;
-  left: 90px;
+  bottom: 70px;
+  left: 10px;
   transform: rotate(90deg);
 }
 .dot-circle {
   color: #e2b5cd;
   font-size: 2.7rem;
   position: absolute;
-  top: 740px;
-  right: 115px;
+  top: 120px;
+  right: 58px;
 }

@@ -6,6 +6,7 @@
   border-radius: var(--radius2);
   box-sizing: border-box;
   margin-bottom: 3rem;
+
 }
 .savings-card p {
   color: var(--clr-grey-2b);

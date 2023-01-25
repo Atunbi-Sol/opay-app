@@ -1,0 +1,32 @@
+.features-section {
+  background: var(--clr-primary-0);
+  z-index: -1;
+}
+.features-section .features-title {
+  width: 75%;
+  margin: 0 auto;
+  padding: 50px;
+}
+.features-section .features-title h1 {
+  font-size: 27px;
+  font-weight: bold;
+  color: #030405;
+}
+.features-section li {
+  width: 20px;
+  display: inline;
+  /* z-index: -100; */
+}
+.features-section li img {
+  width: 170px;
+  padding: 17px;
+}
+.features-section .featured-list .the-guardian {
+  width: 177px;
+  transform: translateY(-8px);
+  /* z-index: -1; */
+}
+.features-section .featured-list .the-TC {
+  width: 177px;
+  transform: translateY(-8px);
+}

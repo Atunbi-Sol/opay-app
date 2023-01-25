@@ -2,6 +2,7 @@ import React from "react";
 import "./customer.css";
 import CreateAccount from "../components/CreateAccount";
 import AppleAndroid from "../components/AppleAndroid";
+import { testimonies } from "../data";
 
 const Customer = () => {
   return (
@@ -18,6 +19,21 @@ const Customer = () => {
         <div>
           <AppleAndroid />
         </div>
+      </div>
+      <div className="customer-testimony section">
+        {testimonies.map((testimony) => {
+          const { date, name, story, image, id } = testimony;
+          return (
+            <div className="custom-testimony" key={id}>
+              <p className="custom-image">{image}</p>
+              <div>
+                <p className="custom-date">{date}</p>
+                <h1>{name}</h1>
+                <p>{story}</p>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

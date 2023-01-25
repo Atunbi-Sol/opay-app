@@ -8,6 +8,8 @@ import { Cards } from "../../data";
 import Access from "../Access";
 import FamilySavings from "../FamilySavings";
 import Customer from "../Customer";
+import Features from "../Features";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
       <Access />
       <FamilySavings />
       <Customer />
+      <Features />
+      <Footer />
     </>
   );
 };
