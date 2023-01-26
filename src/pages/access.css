@@ -2,6 +2,7 @@
   position: relative;
   width: 600px;
   z-index: -1;
+  margin: 100px auto;
 }
 .access-section .access-iphone {
   width: 250px;
@@ -10,7 +11,7 @@
 .dotcircle {
   position: absolute;
   top: 180px;
-  left: 25px;
+  left: 55px;
   font-size: 270px;
   z-index: -1;
   color: #e9daf8;
@@ -21,8 +22,8 @@
   margin: 0 auto;
 }
 .access-section .invest-section p {
-  padding: 20px;
-  font-size: 15px;
+  /* padding: 20px; */
+  font-size: 15.5px;
   color: #030405;
 }
 .access-section .invest-section h4 {
@@ -37,4 +38,31 @@
 .access-section .invest-section h1 {
   color: #030405;
   font-size: 40px;
+}
+@media screen and (min-width: 992px) {
+  .access-section {
+    width: 95vw;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0rem;
+  }
+  .access-section .invest-section h4 {
+    margin: 30px 0;
+  }
+  .access-section .invest-section {
+    text-align: left;
+  }
+  .invest-section {
+    margin: auto 0;
+    width: 100%;
+  }
+  .access-section .access-iphone {
+    width: 250px;
+    height: 500px;
+  }
+  .dotcircle {
+    top: 150px;
+    left: -25px;
+  }
 }

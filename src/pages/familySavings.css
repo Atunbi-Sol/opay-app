@@ -34,3 +34,16 @@
 .family-section button:hover {
   cursor: pointer;
 }
+.family-section  .family-section-image{
+  width: 100%;
+}
+@media screen and (min-width: 992px){
+  .family-section{
+    margin: 60px 0;
+    display: grid;
+    grid-template-columns: auto 430px;
+  }
+  .family-section-image{
+    height: 100%;
+  }
+}

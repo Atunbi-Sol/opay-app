@@ -1,6 +1,6 @@
-.savings {
-  /* margin: 0 0; */
-}
+/* .savings-section {
+  margin: ;
+} */
 .savings-header {
   width: 60%;
   margin: 0 auto;
@@ -30,4 +30,14 @@
   cursor: pointer;
   background: var(--clr-primary-5b);
   transition: var(--transition2);
+}
+
+@media screen and (min-width: 992px) {
+  .cards-savings{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70vw;
+    margin: 30px auto;
+    gap: 20px;
+  }
 }

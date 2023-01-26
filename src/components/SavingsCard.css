@@ -6,11 +6,9 @@
   border-radius: var(--radius2);
   box-sizing: border-box;
   margin-bottom: 3rem;
-
 }
 .savings-card p {
   color: var(--clr-grey-2b);
-  padding: 1rem 0.1rem;
 }
 
 .savings-card .button-icon {
@@ -37,3 +35,10 @@
   background: var(--clr-grey-11);
   color: var(--clr-grey-12);
 }
+/* @media screen and (min-width: 992px) {
+  .savings-card .button-icon,
+  .savings-card .button-header, .savings-card .cards-iconic {
+    float: left;
+    border: 1px solid red;
+  }
+} */

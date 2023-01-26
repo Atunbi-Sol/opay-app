@@ -17,7 +17,7 @@ const FamilySavings = () => {
         </button>
       </div>
       <div className="family-section-image">
-        <img src={oyetade} alt="the oyetades" />
+        <img src={oyetade} alt="the oyetades" className="family-section-image" />
       </div>
     </div>
   );

@@ -1,11 +1,10 @@
-.your-priority{
+.your-priority {
   margin-bottom: 6rem;
 }
 .security-icon {
   width: 105px;
   height: 120px;
-  border: 1px solid var(--clr-black);
-  margin: 4rem 0;
+   /* margin: 4rem 0; */
 }
 .priority-header h1 {
   font-size: 1.7rem;
@@ -22,4 +21,16 @@
 }
 .priority-header p {
   color: var(--clr-grey-2b);
+}
+@media screen and (min-width: 992px) {
+  .your-priority {
+    display: flex;
+    width: 75vw;
+    height: auto;
+    gap: 30px;
+    justify-content: center;
+  }
+  .your-priority .priority-header {
+    text-align: left;
+  }
 }

@@ -1,9 +1,15 @@
-.main-betterways {
+.betterways-section {
   margin: 5rem 0;
+}
+.main-betterways {
+  /* margin: 5rem 0; */
 }
 .betterways-center {
   padding-bottom: 2rem;
   width: 100%;
+}
+.betterway-header h1 {
+  font-size: 50px;
 }
 .betterway-header p {
   color: var(--clr-grey-2b);
@@ -67,7 +73,7 @@
   position: absolute;
   font-size: 120px;
   color: #a2e1fc;
-   bottom: 70px;
+  bottom: 70px;
   left: 35px;
   transform: rotate(90deg);
 }
@@ -85,4 +91,37 @@
   position: absolute;
   top: 120px;
   right: 58px;
+}
+
+@media screen and (min-width: 992px) {
+  .betterways-section {
+    width: 95vw;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .compress-image {
+    top: -30px;
+    left: 95px;
+  }
+  .myrent-image {
+    top: 130px;
+    left: 24px;
+  }
+  .dot-circle {
+    top: 120px;
+    right: 105px;
+  }
+  .dot-image {
+    bottom: 120px;
+    left: 55px;
+  }
+  .dotted {
+    bottom: 120px;
+    left: 75px;
+  }
+  .investify-image {
+    bottom: 55px;
+    right: 13px;
+  }
 }

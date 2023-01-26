@@ -39,11 +39,11 @@
   }
 } */
 
-.custom-testimony > div {
+/* .custom-testimony > div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
+} */
 
 .custom-testimony p {
   margin: 0;
@@ -66,4 +66,22 @@
 }
 .custom-testimony .custom-date {
   text-align: right;
+}
+@media screen and (min-width: 992px) {
+  .customer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    justify-content: center;
+  }
+  .customer-section .customer-testimony {
+    margin-top: 0px;
+  }
+  .customer-section .customer-headers {
+    text-align: left;
+  }
+  .customer-headers .customer-appleandroid{
+ float: left;
+  }
 }

@@ -65,11 +65,15 @@ export const socials = [
 export const Cards = [
   {
     id: 1,
-    icon: <img src={piggy} alt="secur" style={{ width: 50, height: 50 }} />,
+    icon: <img src={piggy} alt="secur" style={{ width: 50, height: 50 }} className="cards-iconic"/>,
     title: "Automated Savings",
     description: "Automated savings is a way to save money from a large investment.",
     button: <FaLongArrowAltRight className="button-icon one" />,
-    buttonName: <span style={{ fontWeight: "bold", letterSpacing: 2 }}>{"Piggybank"}</span>,
+    buttonName: (
+      <span style={{ fontWeight: "bold", letterSpacing: 2 }} className="button-header">
+        {"Piggybank"}
+      </span>
+    ),
   },
   {
     id: 2,
@@ -77,7 +81,11 @@ export const Cards = [
     title: "Fixed Savings",
     description: "Lock money away for a fixed duration with no access to it until maturity. It’s like having a custom fixed deposit.",
     button: <FaLongArrowAltRight className="button-icon two" />,
-    buttonName: <span style={{ fontWeight: "bold", letterSpacing: 2 }}>{"Safelock"}</span>,
+    buttonName: (
+      <span style={{ fontWeight: "bold", letterSpacing: 2 }} className="button-header">
+        {"Safelock"}
+      </span>
+    ),
   },
   {
     id: 3,
@@ -85,7 +93,11 @@ export const Cards = [
     title: "Goal-Oriented Savings",
     description: "Reach all your savings goals faster. Save towards multiple goals on your own or with a group.",
     button: <FaLongArrowAltRight className="button-icon three" />,
-    buttonName: <span style={{ fontWeight: "bold", letterSpacing: 2 }}>{"Target Savings"}</span>,
+    buttonName: (
+      <span style={{ fontWeight: "bold", letterSpacing: 2 }} className="button-header">
+        {"Target Savings"}
+      </span>
+    ),
   },
   {
     id: 4,
@@ -93,7 +105,11 @@ export const Cards = [
     title: "Flexible Savings",
     description: "Save, transfer, withdraw, manage and organise your money for free at any time.",
     button: <FaLongArrowAltRight className="button-icon four" />,
-    buttonName: <span style={{ fontWeight: "bold", letterSpacing: 2 }}>{"Flex Naira"}</span>,
+    buttonName: (
+      <span style={{ fontWeight: "bold", letterSpacing: 2 }} className="button-header">
+        {"Flex Naira"}
+      </span>
+    ),
   },
 ];
 

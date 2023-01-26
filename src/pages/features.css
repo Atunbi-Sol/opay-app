@@ -30,3 +30,15 @@
   width: 177px;
   transform: translateY(-8px);
 }
+@media screen and (min-width: 992px){
+  .features-section .features-title{
+    display: flex;
+    width: 90vw;
+    padding: 50px;
+    margin: 0 auto;
+    height: auto;
+    justify-content: space-between;
+
+
+  }
+}
