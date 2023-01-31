@@ -66,7 +66,7 @@ const SignUp = () => {
           Already have an account?
           <span>
             <Link to="/login" className="signUp-link">
-               Log in
+              Log in
             </Link>
           </span>
         </p>
