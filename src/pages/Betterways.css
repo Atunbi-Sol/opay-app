@@ -1,5 +1,5 @@
 .betterways-section {
-  margin: 5rem 0;
+  margin: 5rem auto;
 }
 .main-betterways {
   /* margin: 5rem 0; */
@@ -36,14 +36,14 @@
 .betterways-image::before {
   content: "";
   position: absolute;
-  width: 350px;
-  max-width: 500px;
+  width: 320px;
+  max-width: 450px;
   height: 550px;
   border: 0.2rem solid var(--clr-black);
   box-sizing: border-box;
   border-radius: var(--radius2);
   top: calc(-1.5rem - 10px);
-  right: calc(50% - 220px);
+  right: calc(50% - 210px);
   z-index: -200;
 }
 .myrent-image {

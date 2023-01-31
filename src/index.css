@@ -50,7 +50,7 @@ Variables
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --radius2: 1.2rem;
-   --radius3: 0.7rem;
+  --radius3: 0.7rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
@@ -156,13 +156,13 @@ nav {
   padding: 0.5rem;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  /* z-index: 1000; */
 }
 .nav-toggle {
   font-size: 1.5rem;

@@ -36,7 +36,7 @@ const Footer = () => {
             <li>Privacy</li>
             <li>Security</li>
           </ul>
-          <ul className="Legal-section">
+          <ul className="Company-section">
             <li style={{ fontWeight: "bold" }}>Company</li>
             <li>About</li>
             <li>FAQs</li>
@@ -51,11 +51,9 @@ const Footer = () => {
                 </li>
               );
             })}
-            <li>
-              <p>Tesmot house, Abdulrahman Okene close, Victoria Island, Lagos, Nigeria.</p>
-              <p>contact@piggyvest.com </p>
-              <p>+234 700 933 933 933</p>
-            </li>
+            <p>Tesmot house, Abdulrahman Okene close, Victoria Island, Lagos, Nigeria.</p>
+            <p>contact@piggyvest.com </p>
+            <p>+234 700 933 933 933</p>
           </ul>
         </div>
         <div className="footer-foot">
@@ -64,7 +62,7 @@ const Footer = () => {
             customers have saved and invested billions of Naira that they would normally be tempted to spend.
           </p>
 
-          <p>2016 - {today.getFullYear()} PiggyTech Global Limited - RC 1405222 </p>
+          <p style={{color:"#083eab"}}>2016 - {today.getFullYear()} PiggyTech Global Limited - RC 1405222 </p>
         </div>
       </div>
     </>

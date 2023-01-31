@@ -1,24 +1,27 @@
 .access-section {
-  position: relative;
-  width: 600px;
+  /* width: 600px; */
   z-index: -1;
   margin: 100px auto;
+}
+.access-section .access-image{
+  position: relative;
 }
 .access-section .access-iphone {
   width: 250px;
   height: 550px;
+  max-width: 256px;
 }
 .dotcircle {
   position: absolute;
-  top: 180px;
-  left: 55px;
+  top:170px;
+  left: -5px;
   font-size: 270px;
   z-index: -1;
   color: #e9daf8;
 }
 .invest-section {
   margin-top: 2rem;
-  width: 450px;
+  /* width: 450px; */
   margin: 0 auto;
 }
 .access-section .invest-section p {
@@ -55,11 +58,17 @@
   }
   .invest-section {
     margin: auto 0;
+    max-width: 530px;
     width: 100%;
   }
+  .access-section .access-image{
+    /* text-align: right; */
+    max-width: 450px;
+  }
   .access-section .access-iphone {
-    width: 250px;
+    /* width: 250px; */
     height: 500px;
+   
   }
   .dotcircle {
     top: 150px;

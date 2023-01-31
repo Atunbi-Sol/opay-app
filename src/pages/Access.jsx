@@ -6,7 +6,6 @@ import{ Link }from "react-router-dom"
 import { FaAngleRight } from "react-icons/fa";
 
 
-
 const Access = () => {
   return (
     <div className="access-section section">

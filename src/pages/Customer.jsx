@@ -16,8 +16,8 @@ const Customer = () => {
         <div className="customer-createaccount">
           <CreateAccount />
         </div>
-        <div>
-          <AppleAndroid className="customer-appleandroid"/>
+        <div className="customer-appleandroid">
+          <AppleAndroid />
         </div>
       </div>
       <div className="customer-testimony section">

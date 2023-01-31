@@ -5,7 +5,7 @@
   height: 330px;
   border-radius: var(--radius2);
   box-sizing: border-box;
-  margin-bottom: 3rem;
+  margin: 3rem auto;
 }
 .savings-card p {
   color: var(--clr-grey-2b);
@@ -18,6 +18,7 @@
   border-radius: 50%;
   transform: translateY(30%);
   padding: 2%;
+  z-index: -1;
 }
 .savings-card .four {
   background: #f7d5ea;
@@ -35,10 +36,8 @@
   background: var(--clr-grey-11);
   color: var(--clr-grey-12);
 }
-/* @media screen and (min-width: 992px) {
-  .savings-card .button-icon,
-  .savings-card .button-header, .savings-card .cards-iconic {
-    float: left;
-    border: 1px solid red;
+@media screen and (min-width: 1200px) {
+  .savings-card {
+    margin: 0 auto;
   }
-} */
+}

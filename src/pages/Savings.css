@@ -33,11 +33,30 @@
 }
 
 @media screen and (min-width: 992px) {
-  .cards-savings{
+  .cards-savings {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 70vw;
     margin: 30px auto;
     gap: 20px;
   }
+}
+@media screen and (min-width: 1200px) {
+  .savings-section {
+    width: 96vw;
+    display: flex;
+    margin: 3rem auto;
+    padding: 2rem;
+  }
+  .cards-savings {
+    width: 70vw;
+    margin: 0px auto;
+    gap: 20px;
+  }
+  .savings-header {
+  max-width: 34%;
+  padding: 4rem 4rem 4rem 0rem;
+  text-align: left;
+
+}
 }
