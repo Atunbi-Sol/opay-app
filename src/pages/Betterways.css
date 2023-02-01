@@ -2,7 +2,7 @@
   margin: 5rem auto;
 }
 .main-betterways {
-  /* margin: 5rem 0; */
+  margin-bottom: 3rem;
 }
 .betterways-center {
   padding-bottom: 2rem;
@@ -28,31 +28,33 @@
   /* height: 1000%; */
   border: 1px solid var(--clr-black);
   border-radius: var(--radius2);
-  width: 350px;
+  width: 320px;
   max-width: 500px;
   z-index: -100;
+  /* margin-top: 2rem; */
   /* margin-right: -50px; */
 }
 .betterways-image::before {
   content: "";
   position: absolute;
-  width: 320px;
+  width: 300px;
   max-width: 450px;
-  height: 550px;
+  height: 515px;
   border: 0.2rem solid var(--clr-black);
   box-sizing: border-box;
   border-radius: var(--radius2);
   top: calc(-1.5rem - 10px);
-  right: calc(50% - 210px);
+  right: calc(50% - 190px);
   z-index: -200;
+  /* margin-top: 2rem; */
 }
 .myrent-image {
   width: 220px;
   height: 110px;
   box-sizing: border-box;
   position: absolute;
-  top: 130px;
-  left: -19px;
+  top: 110px;
+  left: -6px;
 }
 .investify-image {
   width: 220px;
@@ -60,21 +62,21 @@
   box-sizing: border-box;
   position: absolute;
   bottom: 15px;
-  right: -28px;
+  right: -3px;
 }
 .compress-image {
   position: absolute;
   font-size: 65px;
   color: #e4d0fa;
-  top: -27px;
-  left: 50px;
+  top: -30px;
+  left: 63px;
 }
 .dot-image {
   position: absolute;
   font-size: 120px;
   color: #a2e1fc;
   bottom: 70px;
-  left: 35px;
+  left: 47px;
   transform: rotate(90deg);
 }
 .dotted {
@@ -82,15 +84,15 @@
   font-size: 120px;
   color: #a2e1fc;
   bottom: 70px;
-  left: 10px;
+  left: 25px;
   transform: rotate(90deg);
 }
 .dot-circle {
   color: #e2b5cd;
   font-size: 2.7rem;
   position: absolute;
-  top: 120px;
-  right: 58px;
+  top: 110px;
+  right: 75px;
 }
 
 @media screen and (min-width: 992px) {
@@ -102,26 +104,26 @@
   }
   .compress-image {
     top: -30px;
-    left: 95px;
+    left: 100px;
   }
   .myrent-image {
     top: 130px;
-    left: 24px;
+    left: 40px;
   }
   .dot-circle {
     top: 120px;
-    right: 105px;
+    right: 120px;
   }
   .dot-image {
     bottom: 120px;
-    left: 55px;
+    left: 70px;
   }
   .dotted {
     bottom: 120px;
-    left: 75px;
+    left: 95px;
   }
   .investify-image {
     bottom: 55px;
-    right: 13px;
+    right: 45px;
   }
 }

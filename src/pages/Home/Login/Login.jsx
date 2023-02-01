@@ -55,7 +55,7 @@ const Login = () => {
             </Link>
           </span>
         </p>
-        <Link to="/forgotPassord" className="login-link">
+        <Link to="/forgotpassword" className="login-link">
           Forgot Password
         </Link>
       </div>

@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import "./signUp.css";
 import pigvest from "../../../images/pigvest.svg";
 import { useNavigate, Link } from "react-router-dom";
+import CustomSelect from "../../../components/Select/CustomSelect";
 
 const SignUp = () => {
+  const [select, setSelect] = useState("");
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -51,10 +53,10 @@ const SignUp = () => {
             <input type="text" id="Referrer" name="Referrer" placeholder="Referrer Phone or Code" className="input-field" />
           </div>
           <div className="form-field">
-            <label htmlFor="userName" className="input-label">
+            <label htmlFor="" className="input-label">
               How Did You Hear About Us? (Optional)
             </label>
-            <input type="text" id="userName" name="userName" placeholder="" className="input-field" />
+            <CustomSelect value="select" onChange={(e) => setSelect(e.target.value)} />
           </div>
           <button type="submit" onClick={handleSubmit} className="button-log">
             CREATE ACCOUNT
