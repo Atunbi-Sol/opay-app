@@ -113,7 +113,7 @@
   color: white;
   font-size: 12px;
 }
-.signUp-section .signUp-footer .signUp-link:hover{
+.signUp-section .signUp-footer .signUp-link:hover {
   color: grey;
   cursor: pointer;
   /* font-weight: bold; */
@@ -122,6 +122,16 @@
   color: white;
   font-size: 12px;
 }
+
+.welcome-text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  align-items: center;
+}
+
+
 @media screen and (max-width: 400px) {
   .signUp-section {
     padding: 0;
@@ -131,5 +141,11 @@
   }
   .signUp-section .header {
     margin-top: 2rem;
+  }
+
+  .welcome-text {
+    display: flex;
+    flex-direction: column;
+    gap : 10;
   }
 }

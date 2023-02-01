@@ -19,7 +19,10 @@ const SignUp = () => {
       <form className="form-control">
         <div className="form-control-header">
           <h1>Create a Source Account</h1>
-          <p>Welcome to the future of Savings {" & "} Investments</p>
+          <div className="welcome-text">
+            <p>Welcome to the future of Savings </p>
+            <p> & Investments</p>
+          </div>
         </div>
         <div className="form-body">
           <div className="form-field">
