@@ -10,7 +10,16 @@
 }
 .betterway-header h1 {
   font-size: 50px;
+  /* animation: bottom-to-top 2s ease-in; */
 }
+/* @keyframes bottom-to-top {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateY(100%);
+  }
+} */
 .betterway-header p {
   color: var(--clr-grey-2b);
   font-size: 1.05rem;
