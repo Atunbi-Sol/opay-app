@@ -15,8 +15,8 @@ const Access = () => {
           <FaDotCircle className="dotcircle" />
         </div>
       </Slide>
-      <Fade direction="up">
-        <div className="invest-section">
+      <div className="invest-section">
+        <Fade direction="up">
           <h4>Up To 25% Returns</h4>
           <h1> Access investment opportunities </h1>
           <p>
@@ -28,8 +28,8 @@ const Access = () => {
               <FaAngleRight className="arrow-icon" />
             </span>
           </Link>
-        </div>
-      </Fade>
+        </Fade>
+      </div>
     </div>
   );
 };

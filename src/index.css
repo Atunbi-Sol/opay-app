@@ -316,3 +316,14 @@ nav {
     color: var(--clr-primary-7);
   }
 }
+@media screen and (max-width: 400px) {
+  .apple-android {
+    display: flex;
+    flex-direction: column;
+  }
+  .apple-butt,
+  .android-butt {
+    width: 52%;
+    margin: 0 auto;
+  }
+}

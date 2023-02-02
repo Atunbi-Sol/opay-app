@@ -34,16 +34,24 @@
 .family-section button:hover {
   cursor: pointer;
 }
-.family-section  .family-section-image{
+.family-section .family-section-image {
   width: 100%;
 }
-@media screen and (min-width: 992px){
-  .family-section{
+@media screen and (min-width: 992px) {
+  .family-section {
     margin: 60px 0;
     display: grid;
-    grid-template-columns: auto 430px;
+    grid-template-columns: auto 530px;
   }
-  .family-section-image{
+  .family-section-image {
     height: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .family-section .family-section-header {
+    padding: 30px 20px;
+  }
+  .family-section .family-section-header h1 {
+    font-size: 32px;
   }
 }

@@ -15,7 +15,6 @@
 .features-section li {
   width: 20px;
   display: inline;
-  /* z-index: -100; */
 }
 .features-section li img {
   width: 170px;
@@ -24,21 +23,23 @@
 .features-section .featured-list .the-guardian {
   width: 177px;
   transform: translateY(-8px);
-  /* z-index: -1; */
 }
 .features-section .featured-list .the-TC {
   width: 177px;
   transform: translateY(-8px);
 }
-@media screen and (min-width: 992px){
-  .features-section .features-title{
+@media screen and (min-width: 992px) {
+  .features-section .features-title {
     display: flex;
     width: 90vw;
     padding: 50px;
     margin: 0 auto;
     height: auto;
     justify-content: space-between;
-
-
+  }
+}
+@media screen and (max-width: 400px) {
+  .features-section .features-title {
+    padding: 20px;
   }
 }

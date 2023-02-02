@@ -10,8 +10,8 @@ const Footer = () => {
   return (
     <>
       <div className="footer-section section">
-        <Zoom>
-          <div className="footer-center">
+        <div className="footer-center">
+          <Zoom>
             <ul className="piggyvest-section">
               <li>
                 <img src={piggyvest} alt="piggyvest" style={{ width: 160 }} />
@@ -24,6 +24,8 @@ const Footer = () => {
                 />
               </li>
             </ul>
+          </Zoom>
+          <Zoom>
             <ul className="product-section">
               <li style={{ fontWeight: "bold" }}>Products</li>
               <li>Piggyvest</li>
@@ -57,16 +59,17 @@ const Footer = () => {
               <p>contact@piggyvest.com </p>
               <p>+234 700 933 933 933</p>
             </ul>
-          </div>
-          <div className="footer-foot">
+          </Zoom>
+        </div>
+        <div className="footer-foot">
+          <Zoom>
             <p>
               Piggyvest (formerly piggybank.ng) is the leading online saving {"&"} investing platform in Nigeria. For over 6 years, our
               customers have saved and invested billions of Naira that they would normally be tempted to spend.
             </p>
-
             <p style={{ color: "#083eab" }}>2016 - {today.getFullYear()} PiggyTech Global Limited - RC 1405222 </p>
-          </div>
-        </Zoom>
+          </Zoom>
+        </div>
       </div>
     </>
   );

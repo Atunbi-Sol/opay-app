@@ -3,7 +3,7 @@
   z-index: -1;
   margin: 100px auto;
 }
-.access-section .access-image{
+.access-section .access-image {
   position: relative;
 }
 .access-section .access-iphone {
@@ -13,7 +13,7 @@
 }
 .dotcircle {
   position: absolute;
-  top:170px;
+  top: 170px;
   left: -5px;
   font-size: 270px;
   z-index: -1;
@@ -21,7 +21,6 @@
 }
 .invest-section {
   margin-top: 2rem;
-  /* width: 450px; */
   margin: 0 auto;
 }
 .access-section .invest-section p {
@@ -61,17 +60,21 @@
     max-width: 530px;
     width: 100%;
   }
-  .access-section .access-image{
+  .access-section .access-image {
     /* text-align: right; */
     max-width: 450px;
   }
   .access-section .access-iphone {
     /* width: 250px; */
     height: 500px;
-   
   }
   .dotcircle {
     top: 150px;
     left: -25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .access-section .invest-section h1 {
+    font-size: 33px;
   }
 }

@@ -54,9 +54,18 @@
     gap: 20px;
   }
   .savings-header {
-  max-width: 34%;
-  padding: 4rem 4rem 4rem 0rem;
-  text-align: left;
-
+    max-width: 34%;
+    padding: 4rem 4rem 4rem 0rem;
+    text-align: left;
+  }
 }
+@media screen and (max-width: 400px) {
+  .savings-header h1 {
+    font-size: 1.37rem;
+    font-weight: bold;
+  }
+  .savings-header {
+     width: 80%;
+    text-align: center;
+  }
 }

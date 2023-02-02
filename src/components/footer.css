@@ -54,8 +54,8 @@
   line-height: 2;
   font-size: 13px;
 }
-.footer-foot p {
-
-}
-@media screen and (min-width: 990px) {
+@media screen and (max-width: 400px) {
+  .footer-section .footer-center ul {
+    margin: 20px;
+  }
 }

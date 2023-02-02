@@ -10,16 +10,8 @@
 }
 .betterway-header h1 {
   font-size: 50px;
-  /* animation: bottom-to-top 2s ease-in; */
 }
-/* @keyframes bottom-to-top {
-  0% {
-    transform: translateX(0);
-  }
-  33% {
-    transform: translateY(100%);
-  }
-} */
+
 .betterway-header p {
   color: var(--clr-grey-2b);
   font-size: 1.05rem;
@@ -34,14 +26,11 @@
   z-index: -1;
 }
 .better-image {
-  /* height: 1000%; */
   border: 1px solid var(--clr-black);
   border-radius: var(--radius2);
   width: 320px;
   max-width: 500px;
   z-index: -100;
-  /* margin-top: 2rem; */
-  /* margin-right: -50px; */
 }
 .betterways-image::before {
   content: "";
@@ -55,7 +44,6 @@
   top: calc(-1.5rem - 10px);
   right: calc(50% - 190px);
   z-index: -200;
-  /* margin-top: 2rem; */
 }
 .myrent-image {
   width: 220px;
@@ -134,5 +122,46 @@
   .investify-image {
     bottom: 55px;
     right: 45px;
+  }
+}
+@media screen and (max-width: 400px){
+  .betterway-header h1 {
+  font-size: 42px;
+}
+.betterway-header p {
+  font-size: 1.03rem;
+}
+.better-image {
+  width: 270px; 
+}
+.betterways-image::before {
+  width: 270px;
+  height: 440px; 
+  top: calc(-1.5rem - 10px);
+  right: calc(45% - 160px);
+}
+  .compress-image {
+    top: -30px;
+    left: -13px;
+  }
+  .myrent-image {
+    top: 90px;
+    left: -65px;
+  }
+  .dot-circle {
+    top: 90px;
+    right: 0px;
+  }
+  .dot-image {
+    bottom: 60px;
+    left: -25px;
+  }
+  .dotted {
+    bottom: 60px;
+    left: -53px;
+  }
+  .investify-image {
+    bottom: 15px;
+    right: -75px;
   }
 }

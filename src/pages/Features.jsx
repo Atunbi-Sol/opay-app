@@ -3,29 +3,35 @@ import "./features.css";
 import Techpoint from "../images/Techpoint.png";
 import theguardian from "../images/theguardian.png";
 import TC from "../images/TC.png";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 const Features = () => {
   console.log("Features");
   return (
     <div className="features-section">
       <div className="features-title section">
-        <Fade bottom>
+        <Fade direction="up">
           <div className="feature-header">
             <h1> As featured in </h1>
           </div>
-          <ul className="featured-list">
+        </Fade>
+        <ul className="featured-list">
+          <Fade direction="up">
             <li>
               <img src={Techpoint} alt="techpoint" />
             </li>
+          </Fade>
+          <Fade direction="up">
             <li>
               <img src={theguardian} alt="theguardian" className="the-guardian" />
             </li>
+          </Fade>
+          <Fade direction="up">
             <li>
               <img src={TC} alt="TC" className="the-TC" />
             </li>
-          </ul>
-        </Fade>
+          </Fade>
+        </ul>
       </div>
     </div>
   );
