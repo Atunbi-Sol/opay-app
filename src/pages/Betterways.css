@@ -124,6 +124,62 @@
     right: 45px;
   }
 }
+@media screen and (min-width: 768px) {
+  .main-betterways {
+    margin: 4rem;
+  }
+  .compress-image {
+    top: -30px;
+    left: 110px;
+  }
+  .myrent-image {
+    top: 120px;
+    left: 40px;
+  }
+  .dot-circle {
+    top: 120px;
+    right: 120px;
+  }
+  .dot-image {
+    bottom: 70px;
+    left: 70px;
+  }
+  .dotted {
+    bottom: 70px;
+    left: 95px;
+  }
+  .investify-image {
+    bottom: 25px;
+    right: 45px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .compress-image {
+    top: -30px;
+    left: -25px;
+  }
+  .myrent-image {
+    top: 101px;
+    left: -65px;
+  }
+  .dot-circle {
+    top: 90px;
+    right: -15px;
+  }
+  .dot-image {
+    bottom: 60px;
+    left: -39px;
+  }
+  .dotted {
+    bottom: 60px;
+    left: -68px;
+  }
+  .investify-image {
+    bottom: 15px;
+    right: -75px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .betterway-header h1 {
     font-size: 42px;
@@ -159,32 +215,6 @@
   .dotted {
     bottom: 60px;
     left: -53px;
-  }
-  .investify-image {
-    bottom: 15px;
-    right: -75px;
-  }
-}
-@media screen and (max-width: 520px) {
-  .compress-image {
-    top: -30px;
-    left: -25px;
-  }
-  .myrent-image {
-    top: 101px;
-    left: -65px;
-  }
-  .dot-circle {
-    top: 90px;
-    right: -15px;
-  }
-  .dot-image {
-    bottom: 60px;
-    left: -39px;
-  }
-  .dotted {
-    bottom: 60px;
-    left: -68px;
   }
   .investify-image {
     bottom: 15px;

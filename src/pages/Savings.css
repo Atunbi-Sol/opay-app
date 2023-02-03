@@ -59,13 +59,25 @@
     text-align: left;
   }
 }
+@media screen and (min-width: 768px) {
+  .savings-header {
+    text-align: center;
+    padding: 2rem;
+  }
+  .cards-savings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px auto;
+    gap: 20px;
+  }
+}
 @media screen and (max-width: 400px) {
   .savings-header h1 {
     font-size: 1.37rem;
     font-weight: bold;
   }
   .savings-header {
-     width: 80%;
+    width: 80%;
     text-align: center;
   }
 }

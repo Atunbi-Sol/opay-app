@@ -38,6 +38,16 @@
     justify-content: space-between;
   }
 }
+@media screen and (min-width: 768px) {
+  .features-section .features-title {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .features-section li {
+    margin-left: 20px;
+  }
+}
 @media screen and (max-width: 400px) {
   .features-section .features-title {
     padding: 20px;
