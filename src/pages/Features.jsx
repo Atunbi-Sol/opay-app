@@ -10,23 +10,23 @@ const Features = () => {
   return (
     <div className="features-section">
       <div className="features-title section">
-        <Fade direction="up">
+        <Fade direction="up" triggerOnce="true">
           <div className="feature-header">
             <h1> As featured in </h1>
           </div>
         </Fade>
         <ul className="featured-list">
-          <Fade direction="up">
+          <Fade direction="up" triggerOnce="true">
             <li>
               <img src={Techpoint} alt="techpoint" />
             </li>
           </Fade>
-          <Fade direction="up">
+          <Fade direction="up" triggerOnce="true">
             <li>
               <img src={theguardian} alt="theguardian" className="the-guardian" />
             </li>
           </Fade>
-          <Fade direction="up">
+          <Fade direction="up" triggerOnce="true">
             <li>
               <img src={TC} alt="TC" className="the-TC" />
             </li>

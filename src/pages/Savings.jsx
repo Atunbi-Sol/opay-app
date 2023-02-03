@@ -8,7 +8,7 @@ const Savings = () => {
   return (
     <div className="savings-section">
       <article className="savings-header ">
-        <Fade direction="up">
+        <Fade direction="up" triggerOnce="true">
           <h1>4 ways to build your savings</h1>
           <p>Earn 5%-15% when you save with any of these PiggyVest plans.</p>
           <button className="savings-button"> Start Saving</button>

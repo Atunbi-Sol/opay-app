@@ -12,7 +12,7 @@ const YourPriority = () => {
         <img src={securitymark} alt="securitymark" className="security-icon" />
       </div>
       <div className="priority-header">
-        <Slide direction="up">
+        <Slide direction="up" triggerOnce="true">
           <h1>Your security is our priority</h1>
           <p>
             PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL security encryption to ensure that

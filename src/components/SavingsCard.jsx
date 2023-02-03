@@ -1,12 +1,12 @@
 import React from "react";
 import "./SavingsCard.css";
-import {Zoom } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const SavingsCard = ({ cards }) => {
   const { icon, title, description, button, buttonName, id } = cards;
 
   return (
-    <Zoom>
+    <Zoom triggerOnce="true">
       <div className="savings-card section">
         {icon}
         <h3> {title}</h3>
@@ -18,4 +18,3 @@ const SavingsCard = ({ cards }) => {
 };
 
 export default SavingsCard;
-

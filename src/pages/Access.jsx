@@ -9,14 +9,14 @@ import { Fade, Slide } from "react-awesome-reveal";
 const Access = () => {
   return (
     <div className="access-section section">
-      <Slide direction="right">
+      <Slide direction="right" triggerOnce="true">
         <div className="access-image">
           <img src={iphone} alt="iphone advert" className="access-iphone" />
           <FaDotCircle className="dotcircle" />
         </div>
       </Slide>
       <div className="invest-section">
-        <Fade direction="up">
+        <Fade direction="up" triggerOnce="true">
           <h4>Up To 25% Returns</h4>
           <h1> Access investment opportunities </h1>
           <p>

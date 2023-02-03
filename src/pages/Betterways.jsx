@@ -28,7 +28,7 @@ const Betterways = () => {
           </div>
         </section>
 
-        <Slide direction="right">
+        <Slide direction="right" triggerOnce="true">
           <article className="betterways-image">
             <img src={lady} alt="lady" className="better-image" />
             <img src={myrent} alt="myrent icon" className="myrent-image" />
